@@ -1,0 +1,724 @@
+body{
+    padding: 0px 0px 0px 0px;
+    background-color: #E2E2E2;
+}
+/***header start***/
+header{
+    background-color: #151618;
+}
+header .navbar-nav .nav-item{
+    position: relative;
+    left: 25%;
+    margin: 0px 35px 0px 0px;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-size: large;
+}
+header .navbar-nav .nav-item:hover{
+   border-bottom: 2px solid #ffffff;
+}
+/***header end***/
+/***banner start***/
+.banner{
+    background: url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: 100% 100%;
+    padding: 50px 0px 50px 0px;
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+
+}
+.banner .box h1{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #ffffff;
+    padding: 72px 0px 0px 7px;
+    margin: 20px 0px 12px 0px;
+}
+.banner .box h2{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #ffffff;
+    padding: 0px 0px 0px 7px;
+    margin: 0px 0px 55px 0px;
+}
+.banner .box a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #171717;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0px 0px 0px 7px;
+}
+.banner .box img{
+    left: 30%;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+
+}
+/****work start****/
+.work{
+    padding: 70px 0px 40px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.work h2{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+}
+.work h2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: -6px;
+    right: 63px;
+    left: 63px;
+    border-bottom: 4px solid #ae2162;
+}
+.work ul{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+.work ul li{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    padding: 90px 0px 0px 0px;
+}
+.work .icon{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.work .icon i{
+    font-family: "Merriweather", serif;
+    font-size: 50px;
+    font-weight:bolder;
+    color: #000000;
+    margin: 0px 0px 0px 0px;
+    transition: background-color 0.7s;
+}
+.work .icon:hover i{
+    color: #ffffff;
+    background-color: #ae2162;
+    padding: 50px 115px;
+}
+.work .icon h4{
+    font-family: "Merriweather", serif;
+    font-weight:bolder;
+    color: #000000;
+    margin: 55px 0px 14px 0px;
+    position: relative;
+    transition: border-bottom 0.7s;
+}
+.work .icon:hover h4::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: -8px;
+    right: 140px;
+    left: 139px;
+    border-bottom: 3px solid #ae2162;
+}
+.work .icon p{
+    font-family: "Merriweather", serif;
+    color: #b8b8a8;
+    transition: color 0.7s;
+}
+.work .icon:hover p{
+    color: #000000a5;
+}
+.work_btn{
+    text-align: center;
+}
+.work .work_btn a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #171717;
+    color: #fff;
+    border-radius: 5px;
+}
+.work .work_btn a:hover{
+    color: #ffffff;
+}
+/****work end****/
+/***about start***/
+.about{
+    padding: 70px 0px 40px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #ede6e6fa;
+    text-align: center;
+    overflow: hidden;
+}
+.about h2{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+}
+.about h2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: -8px;
+    right: 63px;
+    left: 63px;
+    border-bottom: 4px solid #ae2162;
+}
+.about img{
+    margin: 30px 0px 30px 0px;
+    filter: drop-shadow(0px 36px 13px rgba(0, 0, 0, .3));
+}
+.about p{
+    font-family: "Merriweather", serif;
+    text-align: center;
+    color: #000000;
+}
+.about .about_btn a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #171717;
+    color: #fff;
+    border-radius: 5px;
+}
+.about .about_btn{
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.about .about_btn a:hover{
+    color: #ffffff;
+}
+/***about end***/
+/*****back start***/
+.back{
+    background: linear-gradient(to right, #30ae69, #072e85);
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+}
+.back h3{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 97px 0px 0px 0px;
+    margin: 0px 0px 29px 45px;
+}
+.back p{
+    font-family: "Merriweather", serif;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 0px 0px 35px 45px;
+    word-spacing: 1px;
+}
+.back ul li{
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 5px 0px 15px;
+}
+.back li h4{
+    font-family: "Merriweather", serif;
+    color: #ffffff;
+}
+.back .box img{
+    margin: 0px 0px 0px 78px;
+    bottom: 24px;
+    position: relative;
+}
+/*****back end***/
+/*****auto start***/
+.auto{
+    padding: 70px 0px 40px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.auto h2{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+}
+.auto h2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: -6px;
+    right: 106px;
+    left: 106px;
+    border-bottom: 4px solid #ae2162;
+}
+.auto img{
+    margin: 0px 0px 0px 175px;
+}
+.auto p{
+    font-family: "Merriweather", serif;
+    text-align: center;
+    color: #000000;
+}
+.auto_btn{
+    text-align: center;
+}
+.auto .auto_btn a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #171717;
+    color: #fff;
+    border-radius: 5px;
+}
+.auto .auto_btn a:hover{
+    color: #ffffff;
+}
+/*****auto end***/
+/*****test start***/
+.test{
+    padding: 70px 0px 40px 0px;
+    overflow: hidden;
+    background-color: #a83a3a;
+}
+.test h2{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+}
+.test h2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: -6px;
+    right: 106px;
+    left: 106px;
+    border-bottom: 4px solid #ae2162;
+}
+.test ul{
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.test ul li{
+    display: block;
+    margin: 0px auto 0px;
+    padding: 0px 0px 0px 0px;
+    width: 60%;
+    
+}
+.test ul li .box{
+    margin: 40px 0px 150px 0px;
+} 
+.text ul .li .box .image{
+    width: 50%;
+}
+.test ul .box .img_box{
+    float: left;
+}
+.test ul .box .img_box{
+        margin: 0px 100px 0px 0px;
+        background-color: #ffffff;
+        height: 185px;
+        width: 153px;
+        position: relative;
+}
+.test ul .box .img_box::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #ffffff;
+    rotate: 90deg;
+}
+.test ul li .box h5{
+    text-align: center;
+    font-family: "Merriweather", serif;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 10px 0px 0px 0px;
+}
+.test ul li .box h6{
+    text-align: center;
+    font-family: "Merriweather", serif;
+    color: #6d6c6c;
+    margin: 10px 0px 0px 0px;
+}
+.test ul li .box p{
+    font-family: "Merriweather", serif;
+    position: relative;
+    top: 15px;
+}
+.test_btn{
+    text-align: center;
+}
+.test .test_btn a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #171717;
+    color: #fff;
+    border-radius: 5px;
+}
+.test .test_btn a:hover{
+    color: #ffffff;
+}
+/*****test end***/
+/***footer start****/
+footer{
+    background-color: #171717;
+    color: #fff;
+    padding: 90px 0 45px 0;
+    overflow: hidden;
+}
+.first{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.first ul{
+    list-style-type: none;
+}
+.first ul li{
+    margin: 0px 0px 20px 0px;
+}
+.first li img{
+    padding: 0px 11px 0px 12px;
+    margin: 0px 0px 21px 0px;
+}
+.first li h4{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    padding: 0px 0px 0px 29px;
+    margin: 0px 0px 45px 0px;
+}
+.first li a{
+    text-decoration: none;
+    color: #fff;
+}
+.first li .map{
+    margin: 0px 0px 0px 24px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.first li .tel{
+    margin: 0px 0px 0px 24px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.first li .mail{
+    margin: 0px 0px 0px 24px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.first a i{
+    float: left;
+    margin: 0px 8px 0px 0px;
+}
+.first h6{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+}
+.second h4{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 48px 27px;
+}
+.second p{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 15px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 27px;
+}
+.third h4{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 48px 30px;
+}
+.third ul{
+    list-style-type: none;
+}
+.third ul li{
+    margin: 0px 0px 7px 0px;
+}
+.third a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.third a:hover{
+    color: #fff;
+}
+.fourth h4{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 48px 0px;
+}
+.fourth form input{
+    width: 90%;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #ffffff;
+    margin: 0px 0px 20px 0px;
+}
+.fourth form input:hover{
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #ffffff;
+}
+.fourth form button{
+    text-transform: uppercase;
+    border: none;
+    margin: 8px 0px 0px 0px;
+    background-color: #ae2162;
+    color: #ffffff;
+    padding: 11px 32px;
+    font-size: large;
+    font-weight: bold;
+}
+/***footer end****/
+
+
+
+
+
+
+@media only screen and (max-width:1199px){
+    header .navbar-nav .nav-item{
+        margin: 0px 5px 0px 0px;
+        font-size: 15px;
+    }
+    .banner .box img{
+        left: 0%;
+    }
+    
+}
+@media only screen and (max-width:991px){
+    .carousel-indicators{
+        display: none !important;
+    }
+    .banner{
+        text-align: center;
+    }
+    header .navbar-nav .nav-item{
+        left: 0%;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-light .navbar-toggler{
+        color: #ffffff;
+        background-color: #ffffff;
+    }
+    .banner .box img{
+        display: none;
+    }
+    .banner .box h1{
+        font-size: 28px;
+        padding: 0px 0px 0px 0px;
+        margin: 20px 12px 16px 7px;
+    }
+    .banner .box h2{
+        font-size: 20px;
+        margin: 11px 0px 30px 0px;
+    }
+    .work h2 {
+        font-size: 25px;
+    }
+    .work .icon h4{
+        font-size: 17px;
+        margin: 25px 0px 5px 0px;
+    }
+    .work .icon i {
+        font-size: 30px;
+    }
+    .work .icon:hover i{
+        padding: 15px 20px;
+    }
+    .work .icon p {
+        font-size: 12px;
+        margin: 8px 0px 0px 0px;
+    }
+    .work .work_btn a {
+        padding: 8px 34px;
+        font-size: 12px;
+        margin: 28px 0px 0px 0px;
+    }
+    .about h2 {
+        font-size: 25px;
+    }
+    .about img{
+        width: 30%;
+        height: 30%;
+    }
+    .about p{
+        font-size: 10px;
+        margin: 19px 0px 0px 0px;
+    }
+    .about .about_btn a {
+        padding: 8px 34px;
+        font-size: 12px;
+        margin: 28px 0px 0px 0px;
+    }
+    .back h3{
+        font-size: 19px;
+    }
+    .back .box img{
+        display: none;
+    }
+    .back li h4{
+        font-size: 19px;
+    }
+    .back p{
+        font-size: 13px;
+    }
+    .auto h2{
+        font-size: 25px;
+    }
+    .auto img{
+        width: 65%;
+        margin: 0px 0px 0px 82px;
+    }
+    .auto p{
+        font-size: 12px;
+        word-spacing: 1px;
+    }
+    .auto .auto_btn a{
+        padding: 8px 34px;
+        font-size: 12px;
+        margin: 28px 0px 0px 0px;
+    }
+    .test ul .box .img_box{
+        float: unset;
+    }
+    .test ul li .box{
+        margin: 40px 0px 40px 0px;
+    }
+    .test ul li{
+        width: 100%;
+    }
+    .test ul .box .img_box{
+        text-align: center;
+        margin: 0px;
+    }
+    .first a i{
+        float: unset;
+    }
+}
+@media only screen and (max-width:767px){
+    .work .icon h4{
+        font-size: 13px;
+    }
+    .work .icon{
+        margin: 0px 10px 0px 0px;
+    }
+    .back h3 {
+        font-size: 15px;
+        padding: 97px 0px 0px 0px;
+        margin: 0px 0px 29px 45px;
+    }
+    .work ul li{
+        padding: 20px 0px 0px 0px;
+    }
+    .work ul li{
+        width: 50%;
+    }
+    .back p{
+        font-size: 14px;
+    }
+    .work .icon:hover h4::after{
+       right: 61px;
+       left: 61px;
+    }
+    .auto h2{
+        font-size: 25px;
+    }
+    .auto img{
+        width: 65%;
+        margin: 0px 0px 0px 82px;
+    }
+    .auto p{
+        font-size: 12px;
+        word-spacing: 1px;
+    }
+    
+}
+@media only screen and (max-width:560px){
+    .back li h4{
+        font-size: 16px;
+    }
+    .back ul li{
+        margin: 0px 5px 0px 0px;
+    }
+    .banner .box h1{
+        font-size: 28px;
+        padding: 0px 0px 0px 0px;
+        margin: 20px 12px 16px 7px;
+    }
+    .banner .box h2{
+        font-size: 22px;
+        margin: 11px 0px 30px 0px;
+    }
+    .work .icon h4{
+        font-size: 11px;
+    }
+    .work .icon p {
+        font-size: 10px;
+        margin: 8px 0px 0px 0px;
+    }
+    .about img{
+        width: 25%;
+        height: 25%;
+        filter: drop-shadow(0px 22px 7px rgba(0, 0, 0, .3));
+    }
+    .auto h2{
+        font-size: 25px;
+    }
+    .auto img{
+        width: 65%;
+        margin: 0px 0px 0px 82px;
+    }
+    .auto p{
+        font-size: 12px;
+        word-spacing: 1px;
+    }
+    .test h2{
+        font-size: 25px;
+    }
+    
+    footer{
+        text-align: center;
+    }
+}
